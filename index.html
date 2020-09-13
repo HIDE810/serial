@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Serial Number Analyzer</title>
+        <link rel="stylesheet" type="text/css" href="default.css">
+        <script src="main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <center>
+            <h1>Serial Number Analyzer</h1>
+            <hr>
+            <h2>Console</h2>
+            <form>
+                <input type="text" placeholder="Enter a serial number" id="console">
+                <input type="button" value="click" onClick="checkConsole()">
+            </form>
+            <div class="result">
+                <h2>Result</h2>
+                <div align="left">
+                    <h4>Model&nbsp;: <span id="model"></span></h4>
+                    <h4>Region: <span id="region"></span></h4>
+                </div>
+            </div>
+            <hr>
+            <h2>Card</h2>
+            <form>
+                <input type="text" placeholder="Enter a serial number" id="card">
+                <input type="button" value="click" onClick="checkCard()">
+            </form>
+            <div class="result">
+                <h2>Result</h2>
+                <div align="left">
+                    <h4>Product code: <span id="code"></span></h4>
+                    <h4>Production date: <span id="date"></span></h4>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                <p>Copyright © 2020 HIDE. All Rights Reserved.</p>
+            </footer>
+        </center>
+    </body>
+</html>
