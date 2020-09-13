@@ -1,3 +1,5 @@
+//https://www.3dbrew.org/wiki/Serials
+
 function checkConsole() {
     var console = document.getElementById("console").value.toUpperCase().split('');
     
